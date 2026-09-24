@@ -369,7 +369,7 @@ class DreamBooth:
                 f'--train_text_encoder '
                 f'--instance_prompt="{instance_prompt}" '
                 f'--class_prompt="{class_prompt}" '
-                f'--num_dataloader_workers=4 '
+                f'--num_dataloader_workers=0 '
                 f'--resolution=512 '
                 f'--train_batch_size=1 '
                 f'--lr_scheduler="constant" '
